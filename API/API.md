@@ -28,6 +28,33 @@ The API follows a **hierarchical structure**:
 | Update | `PUT` | `/users/{id}` | Update user info |
 | Delete | `DELETE` | `/users/{id}` | Delete the user |
 
+## House API
+
+| Action | HTTP Method | Endpoint | Description |
+|--------|------------|----------|-------------|
+| Create | `POST` | `/houses` | Register for a new House |
+| Read | `GET` | `/houses/{id}` | Read on house details |
+| Update | `PUT` | `/houses/{id}` | Modify the house |
+| Delete | `DELETE` | `/houses/{id}` | Remove the house |
+
+## Room API
+
+| Action | HTTP Method | Endpoint | Description |
+|--------|------------|----------|-------------|
+| Create | `POST` | `/rooms` | Create a new Room |
+| Read | `GET` | `/rooms/{id}` | Get Room details |
+| Update | `PUT` | `/rooms/{id}` | Update room properties |
+| Delete | `DELETE` | `/rooms/{id}` | Remove the room |
+
+## Device API
+
+| Action | HTTP Method | Endpoint | Description |
+|--------|------------|----------|-------------|
+| Create | `POST` | `/devices` | Add devices to room |
+| Read | `GET` | `/devices/{id}` | Read on device details |
+| Update | `PUT` | `/devices/{id}` | Modify the device settings |
+| Delete | `DELETE` | `/devices/{id}` | Remove the device |
+
 **Data Structures** can be viewed in attached code
 
 **To use this API** pip install Flask, and run the API with python app.py
@@ -43,4 +70,6 @@ The API follows a **hierarchical structure**:
 | Internal Server Error | 500             | Unexpected system failure                      |
 
 
+# Acknowledgment:
+# This project was developed with guidance and assistance from professor Osama's lecture materials and ChatGPT by OpenAI
 
