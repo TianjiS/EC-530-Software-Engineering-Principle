@@ -70,6 +70,6 @@ The API follows a **hierarchical structure**:
 | Internal Server Error | 500             | Unexpected system failure                      |
 
 
-# Acknowledgment:
-# This project was developed with guidance and assistance from professor Osama's lecture materials and ChatGPT by OpenAI
+##### Acknowledgment:
+##### This project was developed with guidance and assistance from professor Osama's lecture materials and ChatGPT by OpenAI
 
